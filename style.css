@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.button-container {
+    width: 80px;
+    height: 40px;
+    background-color: #D5D5D5;
+    border-radius: 50px;
+}
+
+
+
+.hidden {
+    background-color: #00E676;
+    z-index: 2;
+}
+
+.boxer .hidden {
+    background-color: white;
+    z-index: 2;
+}
+
+.right {
+    color: grey;
+    
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 40px;
+    border-radius: 50px;
+}
+
+.left {
+    color: white;
+    
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 1px;
+    border-radius: 50px;
+}
+
+.left hidden {
+    background-color: #D5D5D5;
+} 
